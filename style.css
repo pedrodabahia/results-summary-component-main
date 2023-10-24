@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: modelI;
+    src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+body{
+    overflow-x: hidden;
+}
+
+.content{
+
+    background-color: rgb(240, 240, 240);
+    width: 60vw;
+    height: 38vw;
+    margin:10vh auto;
+    border-radius:50px;
+    display: flex;
+    font-family: modelI;
+   
+}
+
+.content .box .pointer{
+    width: 30vw;
+    height: 38vw;
+    border-radius: 50px;
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    float: left;
+    text-align: center;
+    color: white;
+   
+}
+.content .box .informations{
+    width: 28vw;
+    height: 80vh;
+    margin-left: 0.5vw;
+    float: left;
+}
+
+.content .box .pointer .circle{
+    width:17vw;
+    height:16vw;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 6%;
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%),hsla(241, 72%, 46%)  );
+}
+
+.content .box .pointer .circle h1{
+    font-size: 8vw;
+}
+
+.content .box .pointer h1{
+    font-size: 2.5vw;
+    margin-top: 10%;
+}
+
+
+.content .box .pointer .circle p{
+    margin-top: -10%;
+    font-size: 2vw;
+    opacity: 0.5;
+    color: grey;
+}
+.content .box .pointer .texto{
+    width:20vw;
+    display: inline-block;
+    
+}
+.content .box .pointer .texto p{ 
+    width: 20vw;
+    font-size: 1.5vw;
+    opacity: 0.7;
+    margin-top: 5%;
+}
+.informations div, .informations h1, .informations button{
+    background-color: rgb(216, 216, 216);
+    margin: 1vw;
+    width: 26vw;
+    height: 4vw;
+    padding: 0.5vw;
+    transition: 1s;
+
+}
+.informations div{
+    font-size: 1.5vw;
+    border-radius: 15px;
+}
+
+.informations div:hover{
+  
+    background-color: rgb(180, 180, 180);
+    text-shadow: 0px 3px 4px white;
+    transition: 1s;
+}
+
+
+.informations div img{
+    margin-right: 1vw;
+}
+.informations div span{
+    float: right;
+    
+}
+
+.informations h1{
+    background-color: transparent;
+    font-size: 2vw;
+}
+.informations button{
+    font-size: 1.7vw;
+    width:27vw;
+    cursor:pointer;
+    border-radius: 50px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    box-shadow: 0px 3px 0px hsl(0, 0%, 0%);
+    transition: 0.5s;
+}
+
+.informations button:hover{
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%),hsl(252, 100%, 67%));}
+
+.informations button:active {
+    margin-top: 1.2vw;
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width:700px ) {
+    .content{
+        margin:0;
+
+    }
+    .content .box .pointer{
+        height:40vh;
+        width: 100vw;
+        border-top-right-radius:0px ;
+        border-top-left-radius:0px ;
+    }
+    .content .box .informations{
+        width: 100vw;
+        margin: 0;
+    }
+    .content .box .informations div{
+        margin: 2vh auto;
+        width: 88vw;
+        height:4vh;
+        font-size: 2.5vh;
+        padding: 2vh;
+
+    }
+    .content .box .informations h1{
+        font-size: 3vh;
+        margin: 3vh 0;
+        margin-left: 5vw;
+
+    }
+    .content .box .informations button{
+        margin: 2vw 5vw;
+        height: 7vh;
+        width: 88vw;
+        font-size:3vh ;
+    }
+    .attribution{
+        display: none;
+    }
+    .content .box .pointer h1{
+        font-size: 3.5vh;
+        margin-top: 10%;
+    }
+    .content .box .pointer .texto p{
+        font-size: 2.5vh;
+        width: 70vw;
+        margin-left: -24vw;
+        margin-top: 10%;
+    }
+    .content .box .pointer .circle p{
+        font-size: 2vh;
+        margin-top: 1%;
+        
+    }
+    
+.content .box .pointer .circle{
+    width:13vh;
+    height:12vh;
+    margin-top: 2%;
+}
+  .content .box .pointer h1:first-child{
+    margin-top: 5%;
+  }  
+    
+    
+
+}
