@@ -93,10 +93,9 @@ body{
     border-radius: 15px;
 }
 .informations div:nth-child(2){background-color:hsl(0, 100%, 67%);}
-.informations div:nth-child(3){background-color:hsl(0, 100%, 67%);}
-.informations div:nth-child(4){background-color:hsl(39, 100%, 56%);}
-.informations div:nth-child(5){background-color:hsl(166, 100%, 37%);}
-.informations div:nth-child(6){background-color:hsl(234, 100%, 45%);}
+.informations div:nth-child(3){background-color:hsl(39, 100%, 56%));}
+.informations div:nth-child(4){background-color:hsl(166, 100%, 37%);}
+.informations div:nth-child(5){background-color:hsl(234, 100%, 45%);}
 
 
 .informations div:hover{
