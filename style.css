@@ -92,6 +92,9 @@ body{
     font-size: 1.5vw;
     border-radius: 15px;
 }
+.informations div:nth-child(2){
+background-color:rgb(200,0,0)
+}
 
 .informations div:hover{
   
