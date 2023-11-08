@@ -92,10 +92,10 @@ body{
     font-size: 1.5vw;
     border-radius: 15px;
 }
-.informations div:nth-child(2){background-color:rgba(250,81,87,0.2);}
-.informations div:nth-child(3){background-color:rgba(253,173,51,0.2);}
-.informations div:nth-child(4){background-color:rgba(45,189,147,0.2);}
-.informations div:nth-child(5){background-color:rgba(0 ,39, 225,0.2);}
+.informations div:nth-child(2){background-color:rgba(250,81,87,0.1);}
+.informations div:nth-child(3){background-color:rgba(253,173,51,0.1);}
+.informations div:nth-child(4){background-color:rgba(45,189,147,0.1);}
+.informations div:nth-child(5){background-color:rgba(0 ,39, 225,0.1);}
 
 
 .informations div:hover{
