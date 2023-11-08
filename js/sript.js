@@ -18,7 +18,7 @@ function scoreDoObjeto(){
         var number = resposta.Dados[i].score;
         var icone = resposta.Dados[i].icon;
         var cor = resposta.Dados[i].color;
-         contenthtml += "<div id='Reaction' style='color:"+cor+"'><img src="+icone+">"+name+"<span id='numbers' style='color:black;font-weight: 600'>"+number+"<rest style='opacity:0.7'>/100<rest></span></div>"   
+         contenthtml += "<div id='Reaction' style='color:"+cor+"'><img src="+icone+">"+name+"<span class='numbers' style='color:black;font-weight: 600'>"+number+"<rest style='opacity:0.7'>/100<rest></span></div>"   
 
     }
     
