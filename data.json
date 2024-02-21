@@ -4,7 +4,7 @@
     "category": "Reaction",
     "score": 90,
     "icon": "./assets/images/icon-reaction.svg",
-    "color" : "hsl(0, 100%, 67%)"
+    "color" : "black"
   },
   {
     "category": "Memory",
