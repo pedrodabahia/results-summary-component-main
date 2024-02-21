@@ -1,12 +1,13 @@
 
-/*
+
 //Script para estilizar as divs de informação via .json, Estacomentado pois não encontrei a solução para ele funcionar na web
 var urlrequisicao = 'data.json';
 var request = new XMLHttpRequest();
-request.open("GET", urlrequisicao,true);
+request.open("GET", "https://pedrodabahia.github.io/results-summary-component-main/data.json",true);
 request.responseType = 'json';
 request.send();
 var contenthtml = " ";
+
 
 function scoreDoObjeto(){
     request.onload = function(){
@@ -27,7 +28,7 @@ function scoreDoObjeto(){
 
 scoreDoObjeto()
 
-*/$(function(){
+$(function(){
     
     
     function dimensao(){ if($(window).width() < $(window).height()){ telaMobile() }} 
